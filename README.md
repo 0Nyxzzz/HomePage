@@ -67,7 +67,7 @@ LICENSE             MIT
 ### 1. 获取源码
 
 ```bash
-git clone https://github.com/MarkHayford/HomePage.git
+git clone https://github.com/0Nyxzzz/HomePage.git
 cd HomePage
 ```
 
@@ -137,4 +137,4 @@ Issue / PR 欢迎中英文。
 
 ---
 
-维护者：Mark Hayford · 问题反馈请开 [Issues](https://github.com/MarkHayford/HomePage/issues)。
+维护者：Mark Hayford · 问题反馈请开 [Issues](https://github.com/0Nyxzzz/HomePage/issues)。

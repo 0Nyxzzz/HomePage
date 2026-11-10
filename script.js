@@ -982,7 +982,7 @@
         ctx.fill();
       });
       ctx.globalAlpha = 1;
-      label("github.com/MarkHayford/MQLT", 58, 20, 7.5, "rgba(255,255,255,0.46)", 400, "left", true);
+      label("github.com/0Nyxzzz/MQLT", 58, 20, 7.5, "rgba(255,255,255,0.46)", 400, "left", true);
 
       label(t("mqlt.preview"), 20, 56, 13, "#f2f5f3", 700);
       ctx.beginPath();
@@ -1546,11 +1546,10 @@
   if (term && termBody && termOut && termCaretLine) {
     const MAX_LINES = 300;
     const SITES = {
-      github: "https://github.com/MarkHayford",
+      github: "https://github.com/0Nyxzzz",
       listene: "/projects/listene/",
       mqlt: "/projects/mqlt/",
       homepage: "/projects/homepage/",
-      equamotion: "/projects/equamotion/",
       meow: "/meow/",
     };
     const history = [];
@@ -1667,8 +1666,7 @@
           printLink(t("term.listene"), "/projects/listene/");
           printLink(t("term.mqlt"), "/projects/mqlt/");
           printLink(t("term.homepage"), "/projects/homepage/");
-          printLink(t("term.equa"), "/projects/equamotion/");
-          printLink(t("term.moreCode"), "https://github.com/MarkHayford");
+          printLink(t("term.moreCode"), "https://github.com/0Nyxzzz");
           out(t("term.projectsHint"));
         },
       },
@@ -1688,9 +1686,9 @@
       contact: {
         desc: () => t("term.contact"),
         run() {
-          out("email   markhayford816@icloud.com");
+          out("email   203790885@qq.com");
           out("wechat  ITGao06");
-          printLink("github  ", "https://github.com/MarkHayford");
+          printLink("github  ", "https://github.com/0Nyxzzz");
           out(t("term.contactHint"));
         },
       },
@@ -1732,7 +1730,7 @@
           const dir = (args[0] || "").replace(/\/$/, "");
           if (!dir || dir === ".") out("skills/  projects/  about.txt  contact.txt");
           else if (dir === "skills") out("android/  web/  backend/  ai/");
-          else if (dir === "projects") out("listene/  mqlt/  homepage/  equamotion/");
+          else if (dir === "projects") out("listene/  mqlt/  homepage/");
           else err(t("term.lsMiss", { 0: dir }));
         },
       },
